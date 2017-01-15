@@ -1,0 +1,38 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="main.js"></script>
+</head>
+
+<style>
+	body {
+		text-align: center;
+	}
+	#submit {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}	
+</style>
+
+<body>
+
+<h1>Book form</h1>
+
+<input type='text' placeholder='Title' id='title'><br><br>
+<input type='text' placeholder='Author' id='author'><br><br>
+<button class='btn btn-success' id='submit'>Submit</button><br>
+<p id='submit_result'></p><br>
+
+<div class='col-md-6'>
+	<input type='text' placeholder='Add a book title' id='book_title'>
+	<button class='btn btn-primary' id='search_book'>Search</button>
+</div>
+<div class='col-md-6'>
+	<input type='text' placeholder='Add a book author' id='book_author'>
+	<button class='btn btn-primary' id='search_author'>Search</button>
+</div>	
+<p id='result'></p>
+
+</body>
+</html>
